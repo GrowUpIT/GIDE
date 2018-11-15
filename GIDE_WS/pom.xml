@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>co.gide</groupId>
@@ -64,11 +65,7 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>co.gide</groupId>
-			<artifactId>GIDE_ESESP</artifactId>
-			<version>1.0</version>
-		</dependency>
+
 
 		<dependency>
 			<groupId>javax.xml.ws</groupId>
@@ -85,7 +82,12 @@
 			<artifactId>jaxws-tools</artifactId>
 			<version>2.2.10</version>
 		</dependency>
-	
+
+		<dependency>
+			<groupId>co.gide</groupId>
+			<artifactId>GIDE_ESESP</artifactId>
+			<version>1.0</version>
+		</dependency>
 	</dependencies>
 
 
